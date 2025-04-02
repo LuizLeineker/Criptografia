@@ -67,4 +67,16 @@ while i in range(64):
 
 ## 16 PALAVRAS DE 32 BITS, 16 * 32 = 512
 ## TEMOS 64 PARES DE 8 BITS
+# 3 - Parte
+# OLHAR NO SITE LA PARA TER UMA BOA BASE
+# NA PARTE 3 ROTACIONAR OS BITS, ORIGINAL: 00000000000000000000000000000000, ROTATE 7 PEGARIA OS 7 BITS DO FINAL COLOCARIA NO COMECO
+# COM 18 É MESMA COISA PEGARIA OS 18 BITS FINAL E TRAZER PARA COMEÇO ( COM BASE ISSO NO ORIGINAL, PEGA OS 18 DO FINAL DO ORIGINAL PARA O COMECO)
+## 64 palavras de 32,  sendo as 16 primeiras do bloco de 512
+# w16 = w0 + σ0 + w9 + σ1
+# w17 = w1 + σ0 + w10 + σ1
+## Você começa com as 16 palavras iniciais (W[0] até W[15]) do bloco de 512 bits.
+## As palavras seguintes (W[16] até W[63]) são expandidas usando a fórmula fornecida, que envolve as operações σ₀ e σ₁, além de algumas palavras anteriores
+# 4 - Parte
 
+
+## PENSAR NUMA LOGICA 
